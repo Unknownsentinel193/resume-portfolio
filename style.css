@@ -77,13 +77,19 @@ body {
   height: 150%;
   width: 150%;
   background: linear-gradient(
-    #ff5161,
-    #ff53cd,
-    #9461fd,
-    #2dd9fe,
-    #00fe9b,
-    #ffdb4e,
-    #fefefe
+    #001e24,  
+    #003d48,
+    #005d70,
+    #007e97,
+    #009ebf,
+    #00bfd6,
+    #00dfe9,
+    #00f1ff, 
+    #00e4f8, 
+    #00d6f1,  
+    #00c9ea, 
+    #00bbd3,  
+    #00aebc   
   );
   left: -25%;
   top: -25%;
