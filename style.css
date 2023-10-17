@@ -552,3 +552,43 @@ a.nav-link:hover {
 .navbar-toggler.clicked img {
   width: 75px;
 }
+
+.side-content {
+  background: transparent;
+  text-align: right;
+  width: 50%;
+  max-width: 100%;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  z-index: 5;
+  opacity: 0;
+  padding: 1rem 10%;
+  transform: translateX(20px);
+  animation: sideTextAnimation 2s ease-in-out forwards 0.5s;
+  white-space: normal;
+  line-height: 1.5;
+}
+
+.side-content p{
+  font-size:20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+/* Add animation for text appearance effect */
+@keyframes sideTextAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
