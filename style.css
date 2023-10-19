@@ -558,7 +558,7 @@ a.nav-link:hover {
   opacity: 0;
   padding: 1rem 10%;
   transform: translateX(20px);
-  animation: sideTextAnimation 2s ease-in-out forwards 0.5s, textFloatingAnimation 5s ease-in-out infinite 2.5s;
+  animation: sideTextAnimation 2s ease-in-out forwards 0.5s, textSwiftUpAnimation 1s ease-in-out forwards 2.5s;
   white-space: normal;
   line-height: 1.5;
 }
@@ -572,19 +572,7 @@ a.nav-link:hover {
 @keyframes textSwiftUpAnimation {
   0% {
     opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
+	@@ -580,3 +579,12 @@ a.nav-link:hover {
     transform: translateY(0);
-  }
-}
-
-@keyframes textFloatingAnimation {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
   }
 }
