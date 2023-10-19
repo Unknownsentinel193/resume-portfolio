@@ -558,7 +558,7 @@ a.nav-link:hover {
   opacity: 0;
   padding: 1rem 10%;
   transform: translateX(20px);
-  animation: sideTextAnimation 2s ease-in-out forwards 0.5s;
+  animation: sideTextAnimation 2s ease-in-out forwards 0.5s, textSwiftUpAnimation 1s ease-in-out forwards 2.5s;
   white-space: normal;
   line-height: 1.5;
 }
